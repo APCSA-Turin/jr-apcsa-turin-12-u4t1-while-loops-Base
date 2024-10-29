@@ -12,13 +12,10 @@ public class WhileLoopFun {
                                 lines)
          */
     public void printDigits(int number) {
-        String num = "" + number;
-        int len;
-        while(!num.equals("")) {
-            len = num.length();
-            String dig1 = num.substring(len);
-            System.out.println(dig1);
-            num = num.substring(0, len);
+        int updatedNum = number;
+        while(updatedNum > 0) {
+            System.out.println(updatedNum % 10);
+            updatedNum = updatedNum / 10;
         }
     }
   
@@ -32,11 +29,13 @@ public class WhileLoopFun {
          */
     public int countLetter(String word, String letter) {
         int number = 0;
-        int ind;
-        while(word.indexOf(letter) != -1) {
-            number ++;
-            ind = word.indexOf(letter);
-            word = word.substring(ind + 1);
+        int ind = 0;
+        while(ind < word.length()) {
+            String next = word.substring(ind, ind + 1);
+            if(next.equals(letter)) {
+                number ++;
+            }
+            ind ++;
         }
         return number;
     }
@@ -64,10 +63,10 @@ public class WhileLoopFun {
        */
     public int maxDoubles(int number, int threshold) {
         int num = 0;
-        number = number *= 2;
-        while(number < threshold) {
+        int doubleAmt = number * 2;
+        while(doubleAmt <= threshold) {
             num ++;
-            number *= 2;
+            doubleAmt *= 2;
         }
         return num;
     }
@@ -85,6 +84,16 @@ public class WhileLoopFun {
                      but 1 has only a single divisor! (don’t believe it? Google it!)
          */
     public boolean isPrime(int number) {
-        while()
+        if(number == 1) {
+            return false;
+        }
+        int currentDivisor = 2;
+        while(currentDivisor < number) {
+            if(number % currentDivisor == 0) {
+                return false;
+            }
+            currentDivisor ++;
+        }
+        return true;
+        }
     }
-  }  

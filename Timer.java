@@ -11,5 +11,6 @@ public class Timer {
         counter++;
         System.out.println(counter);
     }
+    scanner.close();
   }
 }
