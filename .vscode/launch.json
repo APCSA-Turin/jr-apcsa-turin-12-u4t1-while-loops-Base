@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SpinnerTest",
+            "request": "launch",
+            "mainClass": "SpinnerTest",
+            "projectName": "u4t1-4-iteration-Jarian-M_8a30fd53"
+        },
+        {
+            "type": "java",
             "name": "test",
             "request": "launch",
             "mainClass": "test",
