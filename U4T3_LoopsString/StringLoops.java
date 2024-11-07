@@ -107,11 +107,56 @@ public class StringLoops {
 
     public String removeString(String searchString, String origString) {
       /* to be implemented */
-      String str = "";
       int len = searchString.length();
-      int ind = origString.indexOf(searchString);
-      while(){}
-     }
+      String str = origString;
+      int ind = str.indexOf(searchString);
+      while(ind != -1){
+        str = str.substring(0, ind) + str.substring(ind + len);
+        ind = str.indexOf(searchString);
+      }
+      return str;
+      }
    
-   
+    public void commaSeparated(int fromNum, int toNum) {
+      /* to be implemented */
+      if(fromNum == toNum) {
+        System.out.println(fromNum);
+      } else if(fromNum < toNum) {
+        for(int i = fromNum; i < toNum; i++) {
+          System.out.print(i + ", ");
+        }
+        System.out.println(toNum);
+      } else {
+        for(int j = fromNum; j > toNum; j--) {
+          System.out.print(j + ", ");
+        }
+        System.out.println(toNum);
+      }
+    }
+    
+    public boolean isPalindrome(String myString) {
+      /* to be implemented */
+      String newStr = removeString(" ", myString);
+      String newRev = reverseString(newStr);
+      if(newRev.equals(newStr)) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+  
+    public void multiPrint(String toPrint, int num) {
+      /* to be implemented */
+      String str = "[";
+      if(num <= 0) {
+        System.out.println("[]");
+      } else {
+        for(int i = 1; i < num; i++) {
+          str += toPrint + " ";
+        }
+        str += toPrint + "]";
+        System.out.println(str);
+      }
+    }
+  
   }  
