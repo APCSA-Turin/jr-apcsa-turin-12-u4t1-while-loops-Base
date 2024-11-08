@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "U4T4_Iteration.Main",
+            "projectName": "u4t1-4-iteration-Jarian-M_8a30fd53"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "U4T4.Main",
             "projectName": "u4t1-4-iteration-Jarian-M_8a30fd53"
         },
