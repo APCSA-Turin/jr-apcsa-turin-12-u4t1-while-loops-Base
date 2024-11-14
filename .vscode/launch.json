@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "U4T4_Iteration.Main",
+            "projectName": "u4t1-4-iteration-Jarian-M_8a30fd53"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "U4T4.Main",
+            "projectName": "u4t1-4-iteration-Jarian-M_8a30fd53"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "U4T3_LoopsString.Main",
+            "projectName": "u4t1-4-iteration-Jarian-M_8a30fd53"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "U4T2_ForLoops.Main",
+            "projectName": "u4t1-4-iteration-Jarian-M_8a30fd53"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "U4T1_Lab2.Main",
+            "projectName": "u4t1-4-iteration-Jarian-M_8a30fd53"
+        },
+        {
+            "type": "java",
+            "name": "SpinnerTest",
+            "request": "launch",
+            "mainClass": "SpinnerTest",
+            "projectName": "u4t1-4-iteration-Jarian-M_8a30fd53"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "u4t1-4-iteration-Jarian-M_8a30fd53"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "u4t1-4-iteration-Jarian-M_8a30fd53"
+        },
+        {
+            "type": "java",
+            "name": "Timer",
+            "request": "launch",
+            "mainClass": "Timer",
+            "projectName": "u4t1-4-iteration-Jarian-M_8a30fd53"
+        }
+    ]
+}
